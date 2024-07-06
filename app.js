@@ -72,3 +72,5 @@ let Delta = null;
 console.log(typeof Delta); // null будет объектом в консоли
 console.log(Delta == null);
 console.log(typeof (Delta == null));
+
+//proba pph
