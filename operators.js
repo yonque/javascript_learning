@@ -1,4 +1,5 @@
 // тернарные операторы
+/*
 const bmwX3_price = 100000;
 const fordFocus_price = 10000;
 const budgetUSD = 200;
@@ -65,4 +66,25 @@ if (res === 'Я не робот') {
         default:
             console.log('youre robot');
     }
+}
+
+*/
+// сама
+
+const respond = prompt('Лучший город мира?');
+/*
+if (respond = 'Челяба') {
+    console.log('не опущен');
+} else {
+    console.log('Бомонка лучшоя!! за Тазы!!!!');
+}
+    */
+
+switch(true) {
+    case respond === 'Челяба':
+    case respond === 'Кемерово':
+        console.log('Малаца, сегодня не опущен');
+        break;
+    default:
+        console.log('Бомонка лучшоя!! за Тазы!!!!');
 }
